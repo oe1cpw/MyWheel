@@ -93,8 +93,8 @@
 		AA91509D1792E9D3007017D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AADEFB8D17AEAD8500BB2377 /* StammViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StammViewController.h; sourceTree = "<group>"; };
 		AADEFB8E17AEAD8500BB2377 /* StammViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StammViewController.m; sourceTree = "<group>"; };
-		AADEFB9017AEC03C00BB2377 /* iConiAcon8114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iConiAcon8114.png; sourceTree = "<group>"; };
-		AADEFB9217AEC0B200BB2377 /* iConiAcon857.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iConiAcon857.png; sourceTree = "<group>"; };
+		AADEFB9017AEC03C00BB2377 /* iConiAcon8114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iConiAcon8114.png; path = ../iConiAcon8114.png; sourceTree = "<group>"; };
+		AADEFB9217AEC0B200BB2377 /* iConiAcon857.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iConiAcon857.png; path = ../iConiAcon857.png; sourceTree = "<group>"; };
 		AADEFB9617AECE4300BB2377 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		AADEFB9717AECE4300BB2377 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		AADEFB9917AED78200BB2377 /* ProfilEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilEditViewController.h; sourceTree = "<group>"; };
@@ -124,8 +124,6 @@
 		AA9150751792E9D3007017D0 = {
 			isa = PBXGroup;
 			children = (
-				AADEFB9217AEC0B200BB2377 /* iConiAcon857.png */,
-				AADEFB9017AEC03C00BB2377 /* iConiAcon8114.png */,
 				AA9150871792E9D3007017D0 /* MyWheel */,
 				AA9150801792E9D3007017D0 /* Frameworks */,
 				AA91507F1792E9D3007017D0 /* Products */,
@@ -210,6 +208,8 @@
 				AA9150931792E9D3007017D0 /* Default.png */,
 				AA9150951792E9D3007017D0 /* Default@2x.png */,
 				AA9150971792E9D3007017D0 /* Default-568h@2x.png */,
+				AADEFB9217AEC0B200BB2377 /* iConiAcon857.png */,
+				AADEFB9017AEC03C00BB2377 /* iConiAcon8114.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
