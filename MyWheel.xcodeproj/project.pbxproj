@@ -7,102 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA2D62AA17BD0A3D00FC9662 /* WheelImpressum.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2D62A917BD0A3D00FC9662 /* WheelImpressum.m */; };
-		AA2D62AC17BD211C00FC9662 /* cpw1k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2D62AB17BD211C00FC9662 /* cpw1k.jpg */; };
-		AA2D62AE17BD425700FC9662 /* iAconBlau5030.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2D62AD17BD425700FC9662 /* iAconBlau5030.png */; };
-		AA2D62B017BD43DE00FC9662 /* iAconBlau5030a.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2D62AF17BD43DE00FC9662 /* iAconBlau5030a.png */; };
-		AA2D62B217BD458900FC9662 /* taste320600.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2D62B117BD458900FC9662 /* taste320600.png */; };
-		AA2D62B417BD4DB600FC9662 /* grau6060.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2D62B317BD4DB600FC9662 /* grau6060.png */; };
-		AA2D62B617BD4EBE00FC9662 /* steine6060.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2D62B517BD4EBE00FC9662 /* steine6060.png */; };
-		AA2D62B817BD4F2600FC9662 /* himmel6060.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2D62B717BD4F2600FC9662 /* himmel6060.png */; };
-		AA2D62BC17BD51E600FC9662 /* holz320548.png in Resources */ = {isa = PBXBuildFile; fileRef = AA2D62BB17BD51E600FC9662 /* holz320548.png */; };
-		AA6ADD4317B4282B0095D371 /* VorlagenWahlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADD4217B4282B0095D371 /* VorlagenWahlViewController.m */; };
 		AA6ADDA117B777460095D371 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ADDA017B777460095D371 /* AudioToolbox.framework */; };
-		AA6ADDA417B7779A0095D371 /* BtnUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AA6ADDA217B7779A0095D371 /* BtnUp.m4a */; };
-		AA6ADDA517B7779A0095D371 /* BtnDown.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AA6ADDA317B7779A0095D371 /* BtnDown.m4a */; };
-		AA6ADDA717B77A300095D371 /* btnblau50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6ADDA617B77A300095D371 /* btnblau50@2x.png */; };
-		AA6ADDA917B77AAA0095D371 /* btnblau50.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6ADDA817B77AA90095D371 /* btnblau50.png */; };
-		AA6ADDAC17B784D80095D371 /* wheelDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADDAB17B784D80095D371 /* wheelDraw.m */; };
-		AA6ADDAE17B7D9A60095D371 /* BtnUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA6ADDAD17B7D9A50095D371 /* BtnUp.mp3 */; };
-		AA6ADDB117B7DBC80095D371 /* VorlageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADDB017B7DBC70095D371 /* VorlageCell.m */; };
-		AA6ADDB317B7E61C0095D371 /* BtnRed50.png in Resources */ = {isa = PBXBuildFile; fileRef = AA6ADDB217B7E61C0095D371 /* BtnRed50.png */; };
 		AA6ADDB717B829050095D371 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6ADDB617B829050095D371 /* AVFoundation.framework */; };
-		AA6ADDBD17B974FC0095D371 /* WheelToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6ADDBC17B974FA0095D371 /* WheelToolbox.m */; };
 		AA9150821792E9D3007017D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9150811792E9D3007017D0 /* UIKit.framework */; };
 		AA9150841792E9D3007017D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9150831792E9D3007017D0 /* Foundation.framework */; };
 		AA9150861792E9D3007017D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9150851792E9D3007017D0 /* CoreGraphics.framework */; };
-		AA91508C1792E9D3007017D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA91508A1792E9D3007017D0 /* InfoPlist.strings */; };
-		AA91508E1792E9D3007017D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA91508D1792E9D3007017D0 /* main.m */; };
-		AA9150921792E9D3007017D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9150911792E9D3007017D0 /* AppDelegate.m */; };
-		AA9150941792E9D3007017D0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9150931792E9D3007017D0 /* Default.png */; };
-		AA9150961792E9D3007017D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9150951792E9D3007017D0 /* Default@2x.png */; };
-		AA9150981792E9D3007017D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9150971792E9D3007017D0 /* Default-568h@2x.png */; };
-		AA91509B1792E9D3007017D0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9150991792E9D3007017D0 /* MainStoryboard.storyboard */; };
-		AA91509E1792E9D3007017D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA91509D1792E9D3007017D0 /* ViewController.m */; };
-		AADEFB8F17AEAD8500BB2377 /* StammViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADEFB8E17AEAD8500BB2377 /* StammViewController.m */; };
-		AADEFB9417AEC1F200BB2377 /* iConiAcon857.png in Resources */ = {isa = PBXBuildFile; fileRef = AADEFB9217AEC0B200BB2377 /* iConiAcon857.png */; };
-		AADEFB9517AEC1FC00BB2377 /* iConiAcon8114.png in Resources */ = {isa = PBXBuildFile; fileRef = AADEFB9017AEC03C00BB2377 /* iConiAcon8114.png */; };
-		AADEFB9817AECE4300BB2377 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADEFB9717AECE4300BB2377 /* ProfileViewController.m */; };
-		AADEFB9B17AED78200BB2377 /* ProfilEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADEFB9A17AED78200BB2377 /* ProfilEditViewController.m */; };
-		AADEFBA117AED83700BB2377 /* NamenEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADEFBA017AED83700BB2377 /* NamenEditViewController.m */; };
-		AADEFBA417AEE7F200BB2377 /* AconBasis11.m in Sources */ = {isa = PBXBuildFile; fileRef = AADEFBA317AEE7F200BB2377 /* AconBasis11.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA2D62A817BD0A3D00FC9662 /* WheelImpressum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelImpressum.h; sourceTree = "<group>"; };
-		AA2D62A917BD0A3D00FC9662 /* WheelImpressum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelImpressum.m; sourceTree = "<group>"; };
-		AA2D62AB17BD211C00FC9662 /* cpw1k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cpw1k.jpg; sourceTree = "<group>"; };
-		AA2D62AD17BD425700FC9662 /* iAconBlau5030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iAconBlau5030.png; sourceTree = "<group>"; };
-		AA2D62AF17BD43DE00FC9662 /* iAconBlau5030a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iAconBlau5030a.png; sourceTree = "<group>"; };
-		AA2D62B117BD458900FC9662 /* taste320600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taste320600.png; sourceTree = "<group>"; };
-		AA2D62B317BD4DB600FC9662 /* grau6060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grau6060.png; sourceTree = "<group>"; };
-		AA2D62B517BD4EBE00FC9662 /* steine6060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steine6060.png; sourceTree = "<group>"; };
-		AA2D62B717BD4F2600FC9662 /* himmel6060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = himmel6060.png; sourceTree = "<group>"; };
-		AA2D62BB17BD51E600FC9662 /* holz320548.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holz320548.png; sourceTree = "<group>"; };
-		AA6ADD4117B4282B0095D371 /* VorlagenWahlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VorlagenWahlViewController.h; sourceTree = "<group>"; };
-		AA6ADD4217B4282B0095D371 /* VorlagenWahlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VorlagenWahlViewController.m; sourceTree = "<group>"; };
+		AA00406617C926D500CA31AE /* AconBasis11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AconBasis11.h; path = MyWheel/AconBasis11.h; sourceTree = SOURCE_ROOT; };
+		AA00406717C926D500CA31AE /* AconBasis11.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AconBasis11.m; path = MyWheel/AconBasis11.m; sourceTree = SOURCE_ROOT; };
+		AA00406817C926D500CA31AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyWheel/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		AA00406917C926D500CA31AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyWheel/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		AA00406A17C926D500CA31AE /* btnblau50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnblau50.png; path = MyWheel/btnblau50.png; sourceTree = SOURCE_ROOT; };
+		AA00406B17C926D500CA31AE /* btnblau50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btnblau50@2x.png"; path = "MyWheel/btnblau50@2x.png"; sourceTree = SOURCE_ROOT; };
+		AA00406C17C926D500CA31AE /* BtnDown.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = BtnDown.m4a; path = MyWheel/BtnDown.m4a; sourceTree = SOURCE_ROOT; };
+		AA00406D17C926D500CA31AE /* BtnRed50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnRed50.png; path = MyWheel/BtnRed50.png; sourceTree = SOURCE_ROOT; };
+		AA00406E17C926D500CA31AE /* BtnUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = BtnUp.m4a; path = MyWheel/BtnUp.m4a; sourceTree = SOURCE_ROOT; };
+		AA00406F17C926D500CA31AE /* BtnUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BtnUp.mp3; path = MyWheel/BtnUp.mp3; sourceTree = SOURCE_ROOT; };
+		AA00407017C926D500CA31AE /* cpw1k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cpw1k.jpg; path = MyWheel/cpw1k.jpg; sourceTree = SOURCE_ROOT; };
+		AA00407117C926D500CA31AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "MyWheel/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		AA00407217C926D500CA31AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = MyWheel/Default.png; sourceTree = SOURCE_ROOT; };
+		AA00407317C926D500CA31AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "MyWheel/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		AA00407617C926D500CA31AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		AA00407817C926D500CA31AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AA00407B17C926D500CA31AE /* grau6060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grau6060.png; path = MyWheel/grau6060.png; sourceTree = SOURCE_ROOT; };
+		AA00407C17C926D500CA31AE /* himmel6060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = himmel6060.png; path = MyWheel/himmel6060.png; sourceTree = SOURCE_ROOT; };
+		AA00407D17C926D500CA31AE /* holz320548.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = holz320548.png; path = MyWheel/holz320548.png; sourceTree = SOURCE_ROOT; };
+		AA00407E17C926D500CA31AE /* iAconBlau5030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iAconBlau5030.png; path = MyWheel/iAconBlau5030.png; sourceTree = SOURCE_ROOT; };
+		AA00407F17C926D500CA31AE /* iAconBlau5030a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iAconBlau5030a.png; path = MyWheel/iAconBlau5030a.png; sourceTree = SOURCE_ROOT; };
+		AA00408017C926D500CA31AE /* iConiAcon857.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iConiAcon857.png; path = MyWheel/iConiAcon857.png; sourceTree = SOURCE_ROOT; };
+		AA00408117C926D500CA31AE /* iConiAcon8114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iConiAcon8114.png; path = MyWheel/iConiAcon8114.png; sourceTree = SOURCE_ROOT; };
+		AA00408217C926D500CA31AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyWheel/main.m; sourceTree = SOURCE_ROOT; };
+		AA00408517C926D500CA31AE /* MyWheel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MyWheel-Info.plist"; path = "MyWheel/MyWheel-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AA00408617C926D500CA31AE /* MyWheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyWheel-Prefix.pch"; path = "MyWheel/MyWheel-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		AA00408717C926D500CA31AE /* NamenEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NamenEditViewController.h; path = MyWheel/NamenEditViewController.h; sourceTree = SOURCE_ROOT; };
+		AA00408817C926D500CA31AE /* NamenEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NamenEditViewController.m; path = MyWheel/NamenEditViewController.m; sourceTree = SOURCE_ROOT; };
+		AA00408917C926D500CA31AE /* ProfilEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfilEditViewController.h; path = MyWheel/ProfilEditViewController.h; sourceTree = SOURCE_ROOT; };
+		AA00408A17C926D500CA31AE /* ProfilEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfilEditViewController.m; path = MyWheel/ProfilEditViewController.m; sourceTree = SOURCE_ROOT; };
+		AA00408B17C926D500CA31AE /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = MyWheel/ProfileViewController.h; sourceTree = SOURCE_ROOT; };
+		AA00408C17C926D500CA31AE /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = MyWheel/ProfileViewController.m; sourceTree = SOURCE_ROOT; };
+		AA00408D17C926D500CA31AE /* StammViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StammViewController.h; path = MyWheel/StammViewController.h; sourceTree = SOURCE_ROOT; };
+		AA00408E17C926D500CA31AE /* StammViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StammViewController.m; path = MyWheel/StammViewController.m; sourceTree = SOURCE_ROOT; };
+		AA00408F17C926D500CA31AE /* steine6060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = steine6060.png; path = MyWheel/steine6060.png; sourceTree = SOURCE_ROOT; };
+		AA00409017C926D500CA31AE /* taste320600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taste320600.png; path = MyWheel/taste320600.png; sourceTree = SOURCE_ROOT; };
+		AA00409117C926D500CA31AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MyWheel/ViewController.h; sourceTree = SOURCE_ROOT; };
+		AA00409217C926D500CA31AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MyWheel/ViewController.m; sourceTree = SOURCE_ROOT; };
+		AA00409317C926D500CA31AE /* VorlageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VorlageCell.h; path = MyWheel/VorlageCell.h; sourceTree = SOURCE_ROOT; };
+		AA00409417C926D500CA31AE /* VorlageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VorlageCell.m; path = MyWheel/VorlageCell.m; sourceTree = SOURCE_ROOT; };
+		AA00409517C926D500CA31AE /* VorlagenWahlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VorlagenWahlViewController.h; path = MyWheel/VorlagenWahlViewController.h; sourceTree = SOURCE_ROOT; };
+		AA00409617C926D500CA31AE /* VorlagenWahlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = VorlagenWahlViewController.m; path = MyWheel/VorlagenWahlViewController.m; sourceTree = SOURCE_ROOT; };
+		AA00409717C926D500CA31AE /* wheelDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wheelDraw.h; path = MyWheel/wheelDraw.h; sourceTree = SOURCE_ROOT; };
+		AA00409817C926D500CA31AE /* wheelDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = wheelDraw.m; path = MyWheel/wheelDraw.m; sourceTree = SOURCE_ROOT; };
+		AA00409917C926D500CA31AE /* WheelImpressum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WheelImpressum.h; path = MyWheel/WheelImpressum.h; sourceTree = SOURCE_ROOT; };
+		AA00409A17C926D500CA31AE /* WheelImpressum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WheelImpressum.m; path = MyWheel/WheelImpressum.m; sourceTree = SOURCE_ROOT; };
+		AA00409B17C926D500CA31AE /* WheelToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WheelToolbox.h; path = MyWheel/WheelToolbox.h; sourceTree = SOURCE_ROOT; };
+		AA00409C17C926D500CA31AE /* WheelToolbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WheelToolbox.m; path = MyWheel/WheelToolbox.m; sourceTree = SOURCE_ROOT; };
 		AA6ADDA017B777460095D371 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		AA6ADDA217B7779A0095D371 /* BtnUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BtnUp.m4a; sourceTree = "<group>"; };
-		AA6ADDA317B7779A0095D371 /* BtnDown.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BtnDown.m4a; sourceTree = "<group>"; };
-		AA6ADDA617B77A300095D371 /* btnblau50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnblau50@2x.png"; sourceTree = "<group>"; };
-		AA6ADDA817B77AA90095D371 /* btnblau50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnblau50.png; sourceTree = "<group>"; };
-		AA6ADDAA17B784D70095D371 /* wheelDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelDraw.h; sourceTree = "<group>"; };
-		AA6ADDAB17B784D80095D371 /* wheelDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wheelDraw.m; sourceTree = "<group>"; };
-		AA6ADDAD17B7D9A50095D371 /* BtnUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BtnUp.mp3; sourceTree = "<group>"; };
-		AA6ADDAF17B7DBC70095D371 /* VorlageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VorlageCell.h; sourceTree = "<group>"; };
-		AA6ADDB017B7DBC70095D371 /* VorlageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VorlageCell.m; sourceTree = "<group>"; };
-		AA6ADDB217B7E61C0095D371 /* BtnRed50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnRed50.png; sourceTree = "<group>"; };
 		AA6ADDB617B829050095D371 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		AA6ADDBB17B974FA0095D371 /* WheelToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelToolbox.h; sourceTree = "<group>"; };
-		AA6ADDBC17B974FA0095D371 /* WheelToolbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelToolbox.m; sourceTree = "<group>"; };
 		AA91507E1792E9D3007017D0 /* MyWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9150811792E9D3007017D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA9150831792E9D3007017D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA9150851792E9D3007017D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AA9150891792E9D3007017D0 /* MyWheel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyWheel-Info.plist"; sourceTree = "<group>"; };
-		AA91508B1792E9D3007017D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA91508D1792E9D3007017D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AA91508F1792E9D3007017D0 /* my-wheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "my-wheel-Prefix.pch"; sourceTree = "<group>"; };
-		AA9150901792E9D3007017D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AA9150911792E9D3007017D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA9150931792E9D3007017D0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		AA9150951792E9D3007017D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		AA9150971792E9D3007017D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AA91509A1792E9D3007017D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AA91509C1792E9D3007017D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA91509D1792E9D3007017D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AADEFB8D17AEAD8500BB2377 /* StammViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StammViewController.h; sourceTree = "<group>"; };
-		AADEFB8E17AEAD8500BB2377 /* StammViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StammViewController.m; sourceTree = "<group>"; };
-		AADEFB9017AEC03C00BB2377 /* iConiAcon8114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iConiAcon8114.png; path = ../iConiAcon8114.png; sourceTree = "<group>"; };
-		AADEFB9217AEC0B200BB2377 /* iConiAcon857.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iConiAcon857.png; path = ../iConiAcon857.png; sourceTree = "<group>"; };
-		AADEFB9617AECE4300BB2377 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		AADEFB9717AECE4300BB2377 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		AADEFB9917AED78200BB2377 /* ProfilEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilEditViewController.h; sourceTree = "<group>"; };
-		AADEFB9A17AED78200BB2377 /* ProfilEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilEditViewController.m; sourceTree = "<group>"; };
-		AADEFB9F17AED83700BB2377 /* NamenEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamenEditViewController.h; sourceTree = "<group>"; };
-		AADEFBA017AED83700BB2377 /* NamenEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamenEditViewController.m; sourceTree = "<group>"; };
-		AADEFBA217AEE7F200BB2377 /* AconBasis11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AconBasis11.h; sourceTree = "<group>"; };
-		AADEFBA317AEE7F200BB2377 /* AconBasis11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AconBasis11.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +87,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA00407417C926D500CA31AE /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				AA00407517C926D500CA31AE /* InfoPlist.strings */,
+				AA00407717C926D500CA31AE /* MainStoryboard.storyboard */,
+			);
+			name = en.lproj;
+			path = MyWheel/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		AA00409D17C9276800CA31AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA00409117C926D500CA31AE /* ViewController.h */,
+				AA00409217C926D500CA31AE /* ViewController.m */,
+				AA00409317C926D500CA31AE /* VorlageCell.h */,
+				AA00409417C926D500CA31AE /* VorlageCell.m */,
+				AA00409517C926D500CA31AE /* VorlagenWahlViewController.h */,
+				AA00409617C926D500CA31AE /* VorlagenWahlViewController.m */,
+				AA00409717C926D500CA31AE /* wheelDraw.h */,
+				AA00409817C926D500CA31AE /* wheelDraw.m */,
+				AA00409917C926D500CA31AE /* WheelImpressum.h */,
+				AA00409A17C926D500CA31AE /* WheelImpressum.m */,
+				AA00409B17C926D500CA31AE /* WheelToolbox.h */,
+				AA00409C17C926D500CA31AE /* WheelToolbox.m */,
+				AA00408717C926D500CA31AE /* NamenEditViewController.h */,
+				AA00408817C926D500CA31AE /* NamenEditViewController.m */,
+				AA00408917C926D500CA31AE /* ProfilEditViewController.h */,
+				AA00408A17C926D500CA31AE /* ProfilEditViewController.m */,
+				AA00408B17C926D500CA31AE /* ProfileViewController.h */,
+				AA00408C17C926D500CA31AE /* ProfileViewController.m */,
+				AA00408D17C926D500CA31AE /* StammViewController.h */,
+				AA00408E17C926D500CA31AE /* StammViewController.m */,
+				AA00406617C926D500CA31AE /* AconBasis11.h */,
+				AA00406717C926D500CA31AE /* AconBasis11.m */,
+				AA00406817C926D500CA31AE /* AppDelegate.h */,
+				AA00406917C926D500CA31AE /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		AA9150751792E9D3007017D0 = {
 			isa = PBXGroup;
 			children = (
@@ -153,46 +160,14 @@
 		AA9150871792E9D3007017D0 /* MyWheel */ = {
 			isa = PBXGroup;
 			children = (
-				AA9150901792E9D3007017D0 /* AppDelegate.h */,
-				AA9150911792E9D3007017D0 /* AppDelegate.m */,
-				AA9150991792E9D3007017D0 /* MainStoryboard.storyboard */,
-				AA6ADDAA17B784D70095D371 /* wheelDraw.h */,
-				AA6ADDAB17B784D80095D371 /* wheelDraw.m */,
-				AA91509C1792E9D3007017D0 /* ViewController.h */,
-				AA91509D1792E9D3007017D0 /* ViewController.m */,
-				AADEFBA217AEE7F200BB2377 /* AconBasis11.h */,
-				AADEFBA317AEE7F200BB2377 /* AconBasis11.m */,
+				AA00409D17C9276800CA31AE /* Classes */,
+				AA00407417C926D500CA31AE /* en.lproj */,
+				AA00408217C926D500CA31AE /* main.m */,
+				AA00408517C926D500CA31AE /* MyWheel-Info.plist */,
+				AA00408617C926D500CA31AE /* MyWheel-Prefix.pch */,
+				AA00408F17C926D500CA31AE /* steine6060.png */,
+				AA00409017C926D500CA31AE /* taste320600.png */,
 				AA9150881792E9D3007017D0 /* Supporting Files */,
-				AADEFB8D17AEAD8500BB2377 /* StammViewController.h */,
-				AADEFB8E17AEAD8500BB2377 /* StammViewController.m */,
-				AA2D62A817BD0A3D00FC9662 /* WheelImpressum.h */,
-				AA2D62A917BD0A3D00FC9662 /* WheelImpressum.m */,
-				AADEFB9617AECE4300BB2377 /* ProfileViewController.h */,
-				AA2D62B317BD4DB600FC9662 /* grau6060.png */,
-				AADEFB9717AECE4300BB2377 /* ProfileViewController.m */,
-				AADEFB9917AED78200BB2377 /* ProfilEditViewController.h */,
-				AA2D62B517BD4EBE00FC9662 /* steine6060.png */,
-				AADEFB9A17AED78200BB2377 /* ProfilEditViewController.m */,
-				AA2D62B717BD4F2600FC9662 /* himmel6060.png */,
-				AADEFB9F17AED83700BB2377 /* NamenEditViewController.h */,
-				AA2D62BB17BD51E600FC9662 /* holz320548.png */,
-				AADEFBA017AED83700BB2377 /* NamenEditViewController.m */,
-				AA6ADD4117B4282B0095D371 /* VorlagenWahlViewController.h */,
-				AA6ADD4217B4282B0095D371 /* VorlagenWahlViewController.m */,
-				AA6ADDAF17B7DBC70095D371 /* VorlageCell.h */,
-				AA6ADDB017B7DBC70095D371 /* VorlageCell.m */,
-				AA6ADDA617B77A300095D371 /* btnblau50@2x.png */,
-				AA2D62B117BD458900FC9662 /* taste320600.png */,
-				AA6ADDA817B77AA90095D371 /* btnblau50.png */,
-				AA2D62AB17BD211C00FC9662 /* cpw1k.jpg */,
-				AA6ADDB217B7E61C0095D371 /* BtnRed50.png */,
-				AA2D62AF17BD43DE00FC9662 /* iAconBlau5030a.png */,
-				AA6ADDAD17B7D9A50095D371 /* BtnUp.mp3 */,
-				AA2D62AD17BD425700FC9662 /* iAconBlau5030.png */,
-				AA6ADDA217B7779A0095D371 /* BtnUp.m4a */,
-				AA6ADDA317B7779A0095D371 /* BtnDown.m4a */,
-				AA6ADDBB17B974FA0095D371 /* WheelToolbox.h */,
-				AA6ADDBC17B974FA0095D371 /* WheelToolbox.m */,
 			);
 			name = MyWheel;
 			path = "grafik-test1";
@@ -201,15 +176,23 @@
 		AA9150881792E9D3007017D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA9150891792E9D3007017D0 /* MyWheel-Info.plist */,
-				AA91508A1792E9D3007017D0 /* InfoPlist.strings */,
-				AA91508D1792E9D3007017D0 /* main.m */,
-				AA91508F1792E9D3007017D0 /* my-wheel-Prefix.pch */,
-				AA9150931792E9D3007017D0 /* Default.png */,
-				AA9150951792E9D3007017D0 /* Default@2x.png */,
-				AA9150971792E9D3007017D0 /* Default-568h@2x.png */,
-				AADEFB9217AEC0B200BB2377 /* iConiAcon857.png */,
-				AADEFB9017AEC03C00BB2377 /* iConiAcon8114.png */,
+				AA00406A17C926D500CA31AE /* btnblau50.png */,
+				AA00406B17C926D500CA31AE /* btnblau50@2x.png */,
+				AA00406C17C926D500CA31AE /* BtnDown.m4a */,
+				AA00406D17C926D500CA31AE /* BtnRed50.png */,
+				AA00406E17C926D500CA31AE /* BtnUp.m4a */,
+				AA00406F17C926D500CA31AE /* BtnUp.mp3 */,
+				AA00407017C926D500CA31AE /* cpw1k.jpg */,
+				AA00407117C926D500CA31AE /* Default-568h@2x.png */,
+				AA00407217C926D500CA31AE /* Default.png */,
+				AA00407317C926D500CA31AE /* Default@2x.png */,
+				AA00407B17C926D500CA31AE /* grau6060.png */,
+				AA00407C17C926D500CA31AE /* himmel6060.png */,
+				AA00407D17C926D500CA31AE /* holz320548.png */,
+				AA00407E17C926D500CA31AE /* iAconBlau5030.png */,
+				AA00407F17C926D500CA31AE /* iAconBlau5030a.png */,
+				AA00408017C926D500CA31AE /* iConiAcon857.png */,
+				AA00408117C926D500CA31AE /* iConiAcon8114.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -265,27 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA91508C1792E9D3007017D0 /* InfoPlist.strings in Resources */,
-				AA9150941792E9D3007017D0 /* Default.png in Resources */,
-				AA9150961792E9D3007017D0 /* Default@2x.png in Resources */,
-				AA9150981792E9D3007017D0 /* Default-568h@2x.png in Resources */,
-				AA91509B1792E9D3007017D0 /* MainStoryboard.storyboard in Resources */,
-				AADEFB9417AEC1F200BB2377 /* iConiAcon857.png in Resources */,
-				AADEFB9517AEC1FC00BB2377 /* iConiAcon8114.png in Resources */,
-				AA6ADDA417B7779A0095D371 /* BtnUp.m4a in Resources */,
-				AA6ADDA517B7779A0095D371 /* BtnDown.m4a in Resources */,
-				AA6ADDA717B77A300095D371 /* btnblau50@2x.png in Resources */,
-				AA6ADDA917B77AAA0095D371 /* btnblau50.png in Resources */,
-				AA6ADDAE17B7D9A60095D371 /* BtnUp.mp3 in Resources */,
-				AA6ADDB317B7E61C0095D371 /* BtnRed50.png in Resources */,
-				AA2D62AC17BD211C00FC9662 /* cpw1k.jpg in Resources */,
-				AA2D62AE17BD425700FC9662 /* iAconBlau5030.png in Resources */,
-				AA2D62B017BD43DE00FC9662 /* iAconBlau5030a.png in Resources */,
-				AA2D62B217BD458900FC9662 /* taste320600.png in Resources */,
-				AA2D62B417BD4DB600FC9662 /* grau6060.png in Resources */,
-				AA2D62B617BD4EBE00FC9662 /* steine6060.png in Resources */,
-				AA2D62B817BD4F2600FC9662 /* himmel6060.png in Resources */,
-				AA2D62BC17BD51E600FC9662 /* holz320548.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,37 +258,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA91508E1792E9D3007017D0 /* main.m in Sources */,
-				AA9150921792E9D3007017D0 /* AppDelegate.m in Sources */,
-				AA91509E1792E9D3007017D0 /* ViewController.m in Sources */,
-				AADEFB8F17AEAD8500BB2377 /* StammViewController.m in Sources */,
-				AADEFB9817AECE4300BB2377 /* ProfileViewController.m in Sources */,
-				AADEFB9B17AED78200BB2377 /* ProfilEditViewController.m in Sources */,
-				AADEFBA117AED83700BB2377 /* NamenEditViewController.m in Sources */,
-				AADEFBA417AEE7F200BB2377 /* AconBasis11.m in Sources */,
-				AA6ADD4317B4282B0095D371 /* VorlagenWahlViewController.m in Sources */,
-				AA6ADDAC17B784D80095D371 /* wheelDraw.m in Sources */,
-				AA6ADDB117B7DBC80095D371 /* VorlageCell.m in Sources */,
-				AA6ADDBD17B974FC0095D371 /* WheelToolbox.m in Sources */,
-				AA2D62AA17BD0A3D00FC9662 /* WheelImpressum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AA91508A1792E9D3007017D0 /* InfoPlist.strings */ = {
+		AA00407517C926D500CA31AE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AA91508B1792E9D3007017D0 /* en */,
+				AA00407617C926D500CA31AE /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		AA9150991792E9D3007017D0 /* MainStoryboard.storyboard */ = {
+		AA00407717C926D500CA31AE /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AA91509A1792E9D3007017D0 /* en */,
+				AA00407817C926D500CA31AE /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -395,7 +344,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "grafik-test1/MyWheel-Prefix.pch";
-				INFOPLIST_FILE = "grafik-test1/MyWheel-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MyWheel/MyWheel-Info.plist";
 				PRODUCT_NAME = MyWheel;
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,7 +355,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "grafik-test1/MyWheel-Prefix.pch";
-				INFOPLIST_FILE = "grafik-test1/MyWheel-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MyWheel/MyWheel-Info.plist";
 				PRODUCT_NAME = MyWheel;
 				WRAPPER_EXTENSION = app;
 			};
